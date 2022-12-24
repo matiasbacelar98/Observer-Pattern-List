@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Project - List of users with the Observer Pattern</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <main
+      id="app"
+      class="w-full h-screen grid place-content-center bg-[#e5e7eb]"
+    >
+      <div id="wrapper" class="mx-auto w-full max-w-[550px] space-y-8">
+        <h1
+          class="text-3xl text-center text-white bg-[#6A64F1] rounded-md py-2"
+        >
+          Users list
+        </h1>
+        <div id="form-container"></div>
+        <ul id="list-container"></ul>
+      </div>
+    </main>
     <script type="module" src="/src/app.js"></script>
   </body>
 </html>
